@@ -1,17 +1,3 @@
-// firebase-config.js
-
-// Check if firebaseApp is already initialized to prevent reinitialization
-if (!window.firebaseApp) {
-    const firebaseConfig = {
-        // Your Firebase project configuration
-    };
-
-    // Initialize Firebase
-    window.firebaseApp = firebase.initializeApp(firebaseConfig);
-    window.auth = firebase.auth();
-}
-
-
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyC_y9o1Z0j4gKh_fD7NE3Qv8Fgn2DJn-Ls",
@@ -22,3 +8,11 @@ const firebaseConfig = {
   appId: "1:93407846936:web:4ce970ddfad0dbff20196d",
   measurementId: "G-P1LP7C488N"
 };
+
+// Initialize Firebase
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
+// Export Firebase objects as globals for use in other scripts
+window.firebaseApp = firebaseApp;
+window.auth = auth;
