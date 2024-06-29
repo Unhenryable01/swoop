@@ -1,0 +1,35 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg176578" viewBox="0 0 1024 768" height="768px" width="1024px" version="1.1">
+  <metadata id="metadata176584">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs176582"></defs>
+  <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-3217ab62-51ae-47eb-966a-8fbde9d89877">
+    <stop id="stop176559" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop176561" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-3217ab62-51ae-47eb-966a-8fbde9d89877">
+    <stop id="stop176564" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop176566" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+    <stop id="stop176568" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <g id="logo-group">
+    <image xlink:href="" id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)"></image>
+    <g id="logo-center" transform="translate(0 0)">
+      <image xlink:href="" id="icon_container" x="0" y="0" style="display: none;"></image>
+      <g id="slogan" style="font-style:normal;font-weight:400;font-size:32px;line-height:1;font-family:Raleway;font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+      <g id="title" style="font-style:normal;font-weight:normal;font-size:72px;line-height:1;font-family:'Brandmark Sans 5 Spectrum';font-variant-ligatures:normal;text-align:center;text-anchor:middle" transform="translate(0 0)">
+        <g id="path176587" aria-label="~S" transform="translate(0 333.928) translate(154.00012000000004 -0.3999999999999986) scale(2) translate(-372.96406 50.4)"> <path class="c3" d="M94.75824,75.20873c-7.70166,0-13.94501,6.24341-13.94501,13.94507s6.24335,13.94507,13.94501,13.94507 h35.63739V75.20873H94.75824z" transform="translate(303.35969 -125.60873)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#7e7e7e" stroke="#7e7e7e"></path> <path class="c1" d="M116.45056,96.90112H69.60437v27.89014h46.84619c7.70166,0,13.94507-6.24341,13.94507-13.94507 S124.15222,96.90112,116.45056,96.90112z" transform="translate(303.35969 -125.60873)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#ababab" stroke="#ababab"></path> <path class="c2" d="M116.45059,96.90116H83.1647c2.50183,3.73627,6.75928,6.19769,11.59351,6.19769h33.28589 C125.54227,99.36259,121.28482,96.90116,116.45059,96.90116z" transform="translate(303.35969 -125.60873)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#949494" stroke="#949494"></path> </g>
+        <g id="path176589" aria-label="W" transform="translate(0 333.928) translate(324.63738 -0.3999999999999986) scale(2) translate(-438.28269 50.4)"> <path class="c1" d="M75.20878,75.20876v35.63739c0,7.70166,6.24341,13.94501,13.94507,13.94501 s13.94507-6.24335,13.94507-13.94501V75.20876H75.20878z" transform="translate(363.07391 -125.60876)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#ababab" stroke="#ababab"></path> <path class="c3" d="M96.9011,75.20876v35.63739c0,7.70166,6.24341,13.94501,13.94507,13.94501 c7.7016,0,13.94501-6.24335,13.94501-13.94501V75.20876H96.9011z" transform="translate(363.07391 -125.60876)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#7e7e7e" stroke="#7e7e7e"></path> <path class="c2" d="M100.00002,119.6022c1.93518-2.3941,3.09888-5.43781,3.09888-8.75604V75.20882h-6.19775v35.63733 C96.90114,114.16439,98.06483,117.20809,100.00002,119.6022z" transform="translate(363.07391 -125.60876)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#949494" stroke="#949494"></path> </g>
+        <g id="path176591" aria-label="O" transform="translate(0 333.928) translate(472.67338 -0.3639999999999972) scale(2) translate(-492.30069 50.382)"> <circle class="c3" cx="100" cy="99.99999" r="24.7912" transform="translate(417.091891 -125.590792)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#7e7e7e" stroke="#7e7e7e"></circle> <path class="c2" d="M82.46992,117.53009c9.68159,9.68159,25.37855,9.6815,35.0601-0.00005 c9.68163-9.68163,9.68163-25.3785,0.00004-35.06009L82.46992,117.53009z" transform="translate(417.091891 -125.590792)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#949494" stroke="#949494"></path> </g>
+        <g id="path176593" aria-label="O" transform="translate(0 333.928) translate(620.9546200000001 -0.3639999999999972) scale(2) translate(-546.44131 50.382)"> <circle class="c3" cx="100" cy="99.99999" r="24.7912" transform="translate(471.232511 -125.590792)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#7e7e7e" stroke="#7e7e7e"></circle> <path class="c2" d="M82.46992,117.53009c9.68159,9.68159,25.37855,9.6815,35.0601-0.00005 c9.68163-9.68163,9.68163-25.3785,0.00004-35.06009L82.46992,117.53009z" transform="translate(471.232511 -125.590792)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#949494" stroke="#949494"></path> </g>
+        <g id="path176595" aria-label="P" transform="translate(0 333.928) translate(769.19988 -0.25600000000000733) scale(2) translate(-600.56394 50.328)"> <rect x="75.2088" y="75.20882" class="c3" width="21.69232" height="49.5824" transform="translate(525.355146 -125.53676)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#7e7e7e" stroke="#7e7e7e"></rect> <path class="c1" d="M106.19781,75.20876H75.2088v37.18683h30.98901c10.26886,0,18.59338-8.32452,18.59338-18.59338 S116.46667,75.20876,106.19781,75.20876z" transform="translate(525.355146 -125.53676)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#ababab" stroke="#ababab"></path> <rect x="75.20879" y="75.20884" class="c2" width="21.69226" height="37.18677" transform="translate(525.355146 -125.53676)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#949494" stroke="#949494"></rect> </g>
+           </g>
+      <image xlink:href="" id="icon" x="0" y="0" style="display: none;"></image>
+    </g>
+  </g>
+</svg>
