@@ -1,6 +1,6 @@
 // app.js
 
-// Firebase Auth instance (assuming it's already initialized in index.html)
+// Firebase Auth instance (assuming it's already initialized in firebase-config.js)
 const auth = firebase.auth();
 
 // Function to handle signup form submission
