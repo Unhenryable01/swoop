@@ -10,6 +10,19 @@ const firebaseConfig = {
 };
 
 // firebase-config.js
+const firebaseConfig = {
+    // Your Firebase project configuration
+};
+
+// Initialize Firebase
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
+// Export Firebase objects as needed
+export { firebaseApp, auth };
+
+
+// firebase-config.js
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
