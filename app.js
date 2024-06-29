@@ -1,5 +1,4 @@
 // app.js
-import { auth } from './firebase-config.js';
 
 // Example function to handle sign up using email and password
 const signupForm = document.getElementById('signupForm');
@@ -9,7 +8,7 @@ signupForm.addEventListener('submit', (event) => {
     const email = signupForm['signupEmail'].value;
     const password = signupForm['signupPassword'].value;
     
-    auth.createUserWithEmailAndPassword(email, password)
+    firebaseApp.auth().createUserWithEmailAndPassword(email, password)
         .then((userCredential) => {
             const user = userCredential.user;
             console.log('User registered:', user);
@@ -33,7 +32,7 @@ loginForm.addEventListener('submit', (event) => {
     const email = loginForm['loginEmail'].value;
     const password = loginForm['loginPassword'].value;
     
-    auth.signInWithEmailAndPassword(email, password)
+    firebaseApp.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             const user = userCredential.user;
             console.log('User logged in:', user);
