@@ -1,7 +1,10 @@
 // app.js
+import { app, getAuth } from './firebase-config.js';
 
-// Firebase Auth instance (assuming it's already initialized in firebase-config.js)
-const auth = firebase.auth();
+const auth = getAuth(app);
+
+// Now you can use `auth` for authentication operations
+
 
 // Function to handle signup form submission
 const signupForm = document.getElementById('signupForm');
