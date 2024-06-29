@@ -1,5 +1,14 @@
 // app.js
 
+// app.js
+
+// Now you can use Firebase services
+const auth = firebase.auth();
+
+// Your Firebase authentication logic continues here
+// (Signup form submission, login form submission, etc.)
+
+
 // Initialize Firebase
 const auth = firebase.auth();
 
