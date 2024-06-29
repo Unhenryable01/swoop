@@ -1,12 +1,7 @@
 // app.js
-import { app, getAuth } from './firebase-config.js';
+import { auth } from './firebase-config.js';
 
-const auth = getAuth(app);
-
-// Now you can use `auth` for authentication operations
-
-
-// Function to handle signup form submission
+// Example function to handle sign up using email and password
 const signupForm = document.getElementById('signupForm');
 signupForm.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -16,11 +11,10 @@ signupForm.addEventListener('submit', (event) => {
     
     auth.createUserWithEmailAndPassword(email, password)
         .then((userCredential) => {
-            // Signed in
             const user = userCredential.user;
             console.log('User registered:', user);
             alert('Registration successful!');
-            // Redirect to social page
+            // Redirect to social page or wherever needed
             window.location.href = 'https://swoop.pages.dev/social';
         })
         .catch((error) => {
@@ -31,7 +25,7 @@ signupForm.addEventListener('submit', (event) => {
         });
 });
 
-// Function to handle login form submission
+// Example function to handle login using email and password
 const loginForm = document.getElementById('loginForm');
 loginForm.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -41,11 +35,10 @@ loginForm.addEventListener('submit', (event) => {
     
     auth.signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
-            // Signed in
             const user = userCredential.user;
             console.log('User logged in:', user);
             alert('Login successful!');
-            // Redirect to social page
+            // Redirect to social page or wherever needed
             window.location.href = 'https://swoop.pages.dev/social';
         })
         .catch((error) => {
