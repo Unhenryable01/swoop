@@ -10,9 +10,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
-// Export Firebase objects as globals for use in other scripts
-window.firebaseApp = firebaseApp;
-window.auth = auth;
+// Export auth for use in other modules
+export { auth };
