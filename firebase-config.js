@@ -5,6 +5,6 @@ const firebaseConfig = {
   projectId: "swoop-1da9f",
   storageBucket: "swoop-1da9f.appspot.com",
   messagingSenderId: "93407846936",
-  appId: "1:93407846936:web:43f6425df526db0120196d",
-  measurementId: "G-GBLBRX20BF"
+  appId: "1:93407846936:web:5da9dc11d2821fed20196d",
+  measurementId: "G-MSPNLDXKST"
 };
